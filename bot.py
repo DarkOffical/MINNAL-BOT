@@ -20,7 +20,7 @@ from datetime import date, datetime
 import pytz
 
 
-from plugins.helpers.config import *
+
 import os
 
 class Bot(Client):
