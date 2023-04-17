@@ -24,10 +24,6 @@ import pytz
 import os
 
 class Bot(Client):
-    if not os.path.isdir(DOWNLOAD_LOCATION):
-        os.makedirs(DOWNLOAD_LOCATION)
-
-class Bot(Client):
 
     def __init__(self):
         super().__init__(
